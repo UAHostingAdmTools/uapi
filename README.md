@@ -3,6 +3,12 @@ Adm.Tools API
 
 Пакет для работы с API контрольной панели <a href="https://adm.tools" target="_blank">adm.tools</a>.
 
+Установка
+--------------
+```bash
+composer require admtools/uapi
+```
+
 Использование
 --------------
 Для пользования API контрольной панели, небоходимо зайти на страницу <a href="https://adm.tools/user/api/">API</a> и получить токен для подключения и настроить ограничения доступа. Рекомендуем ознакомиться с <a href="https://api.adm.tools/" target="_blank">сайтом документации</a> по API.
