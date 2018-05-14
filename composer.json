@@ -1,15 +1,15 @@
 {
   "name": "admtools/uapi",
-  "description": "UApi Integration Library",
-  "license": "proprietary",
+  "description": "Adm.Tools API Integration Library",
+  "license": "mit",
   "authors": [
     {
       "name": "Miha Barin",
-      "email": "barin@delta-x.ua"
+      "email": "barin@ukraine.com.ua"
     },
     {
       "name": "Sergei Zaharov",
-      "email": "zaharov@delta-x.ua"
+      "email": "zaharov@ukraine.com.ua"
     }
   ],
   "require" : {
