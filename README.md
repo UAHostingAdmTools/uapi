@@ -25,6 +25,7 @@ use AdmTools\UApi\Entity;
   * user-email - ваш логин/адрес электронной почты на сайте adm.tools
   * token - токен для подключения полученный на странице https://adm.tools/user/api/#/tab-token
   * Третьим параметром идет необязательный host, по умолчанию имеющий значение https://adm.tools/api.php
+  */
 $processor = new Processor('<user-email>', '<token>'); 
 ```
 
