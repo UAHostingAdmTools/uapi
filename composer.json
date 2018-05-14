@@ -1,0 +1,29 @@
+{
+  "name": "admtools/uapi",
+  "description": "Adm.Tools API Integration Library",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Miha Barin",
+      "email": "barin@ukraine.com.ua"
+    },
+    {
+      "name": "Sergei Zaharov",
+      "email": "zaharov@ukraine.com.ua"
+    }
+  ],
+  "require" : {
+    "nategood/httpful": "*",
+    "jms/serializer": "1.11.0",
+    "doctrine/common": "*",
+    "psr/http-message": "*"
+  },
+  "include-path": [
+    "src/"
+  ],
+  "autoload": {
+    "psr-4": {
+      "AdmTools\\UApi\\": "src/"
+    }
+  }
+}
