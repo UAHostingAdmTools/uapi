@@ -1,0 +1,29 @@
+{
+  "name": "admtools/uapi",
+  "description": "UApi Integration Library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Miha Barin",
+      "email": "barin@delta-x.ua"
+    },
+    {
+      "name": "Sergei Zaharov",
+      "email": "zaharov@delta-x.ua"
+    }
+  ],
+  "require" : {
+    "nategood/httpful": "*",
+    "jms/serializer": "1.11.0",
+    "doctrine/common": "*",
+    "psr/http-message": "*"
+  },
+  "include-path": [
+    "src/"
+  ],
+  "autoload": {
+    "psr-4": {
+      "AdmTools\\UApi\\": "src/"
+    }
+  }
+}
