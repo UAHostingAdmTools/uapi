@@ -39,7 +39,7 @@ $processor = new Processor('<user-email>', '<token>');
 
 ```php
 // Список всех доступных тарифных планов можно получить по запросу AdmTools\UApi\Request\Hosting\Account\Plans()
-$planId = 93;
+$planId = 94;
 
 $hosting = new Entity\Billing\Cart\Hosting();
 $hosting
