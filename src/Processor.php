@@ -153,7 +153,7 @@ class Processor
         $response = $this
             ->getSerializer()
             ->deserialize(
-                $response->body,
+                $response->raw_body,
                 $request->getResponseClass(),
                 self::DEFAULT_FORMAT
             );
